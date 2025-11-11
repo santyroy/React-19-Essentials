@@ -7,6 +7,7 @@ import {
   StyledForm,
   CandidateProfile,
 } from "./JSXRules";
+import { Product } from "./Product";
 import "./App.css";
 
 // PascalCase - React Components (UserProfile.jsx)
@@ -17,13 +18,21 @@ import "./App.css";
 function App() {
   return (
     <div>
+      <Product
+        title="Gaming laptop"
+        price={1299.99}
+        inStock={true}
+        categories={["Electronics", "Computers", "Gaming"]}
+      />
+      <Welcome name="Bruce" alias="Batman" />
+      <Welcome name="Clark" alias="Superman" />
+      <Welcome name="Diana" alias="Wonder Woman" />
       <UserProfile />
       <ContactForm />
       <StyledForm />
       <CandidateProfile />
       <Hello />
       <HelloWithoutJSX />
-      <Welcome />
       <Button />
     </div>
   );
