@@ -15,6 +15,10 @@ import { ProductList } from "./ProductList";
 import { NameList } from "./NameList";
 import { Alert } from "./Alert";
 import { NewButton } from "./NewButton";
+import { CustomButton } from "./CustomButton";
+import { Contact } from "./Contact";
+import { Newsletter } from "./Newsletter";
+import { Menu } from "./Menu";
 import "./App.css";
 
 // PascalCase - React Components (UserProfile.jsx)
@@ -25,6 +29,11 @@ import "./App.css";
 function App() {
   return (
     <div>
+      <Menu />
+      <Contact />
+      <Newsletter />
+      <CustomButton text={"Like"} />
+      <CustomButton text={"Bookmark"} />
       <Alert>Your changes have been saved!</Alert>
       <Alert type="error">Something went wrong!</Alert>
       <NewButton />
