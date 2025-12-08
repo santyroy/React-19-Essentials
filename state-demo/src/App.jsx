@@ -4,6 +4,7 @@ import { Counter } from "./Counter";
 import { LoginCard } from "./LoginCard";
 import { PrevStateCounter } from "./PrevStateCounter";
 import { SimpleCounter } from "./SimpleCounter";
+import { UserProfile } from "./UserProfile";
 
 /* 
 How state update works:
@@ -28,7 +29,8 @@ function App() {
       {/* <LoginCard /> */}
       {/* <SimpleCounter /> */}
       {/* <PrevStateCounter /> */}
-      <BatchingCounter />
+      {/* <BatchingCounter /> */}
+      <UserProfile />
     </>
   );
 }
