@@ -3,7 +3,9 @@ import { BatchingCounter } from "./BatchingCounter";
 import { Counter } from "./Counter";
 import { LoginCard } from "./LoginCard";
 import { PrevStateCounter } from "./PrevStateCounter";
+import { ShoppingCart } from "./ShoppingCart";
 import { SimpleCounter } from "./SimpleCounter";
+import { TodoList } from "./TodoList";
 import { UserProfile } from "./UserProfile";
 
 /* 
@@ -30,7 +32,9 @@ function App() {
       {/* <SimpleCounter /> */}
       {/* <PrevStateCounter /> */}
       {/* <BatchingCounter /> */}
-      <UserProfile />
+      {/* <UserProfile /> */}
+      {/* <TodoList /> */}
+      <ShoppingCart />
     </>
   );
 }
