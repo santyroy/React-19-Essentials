@@ -5,6 +5,7 @@ import { CounterWithReducer } from "./CounterWithReducer";
 import { LoginCard } from "./LoginCard";
 import { PrevStateCounter } from "./PrevStateCounter";
 import { ShoppingCart } from "./ShoppingCart";
+import { ShoppingCartWithReducer } from "./ShoppingCartWithReducer";
 import { SimpleCounter } from "./SimpleCounter";
 import { TodoList } from "./TodoList";
 import { UserProfile } from "./UserProfile";
@@ -36,7 +37,8 @@ function App() {
       {/* <UserProfile /> */}
       {/* <TodoList /> */}
       {/* <ShoppingCart /> */}
-      <CounterWithReducer />
+      {/* <CounterWithReducer /> */}
+      <ShoppingCartWithReducer />
     </>
   );
 }
