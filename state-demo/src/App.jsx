@@ -3,6 +3,7 @@ import { BatchingCounter } from "./BatchingCounter";
 import { Counter } from "./Counter";
 import { CounterWithInit } from "./CounterWithInit";
 import { CounterWithReducer } from "./CounterWithReducer";
+import { CustomCounter } from "./CustomCounter";
 import { LoginCard } from "./LoginCard";
 import { PrevStateCounter } from "./PrevStateCounter";
 import { ShoppingCart } from "./ShoppingCart";
@@ -40,7 +41,8 @@ function App() {
       {/* <ShoppingCart /> */}
       {/* <CounterWithReducer /> */}
       {/* <ShoppingCartWithReducer /> */}
-      <CounterWithInit />
+      {/* <CounterWithInit /> */}
+      <CustomCounter />
     </>
   );
 }
